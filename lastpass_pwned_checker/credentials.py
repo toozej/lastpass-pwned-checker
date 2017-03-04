@@ -8,7 +8,7 @@ class CredsError(Exception):
     ''' Custom error for credentials
     '''
     def __init__(self, *args, **kwargs):
-        super(CredsError).__init__(self, *args, **kwargs)
+        super(CredsError, self).__init__(*args, **kwargs)
 
 class Credentials(object):
     ''' Simple class for obtaining credentials as safely as possible
