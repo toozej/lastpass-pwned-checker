@@ -29,7 +29,7 @@ Example Usage
     $ cp examples/pwned_list.txt pwned_list.txt
     $ # optionally get a new pwned list with
     $ # wget -O pwned_list.txt <some_site_with_pwned_list.com/list.txt>
-    $ python lastpass-pwned-checker.py > output.txt
+    $ ./lppc > output.txt
     $ # sadly wait for a while, script is not multithreaded yet
     $ less output.txt # and take action on sites found if necessary
     $ # if you created venv, deactivate it
