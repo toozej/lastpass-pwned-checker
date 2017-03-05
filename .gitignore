@@ -2,3 +2,9 @@ credentials.json
 venv/
 pwned_list.txt
 output.txt
+.Python
+bin/
+*.pyc
+include/
+lib/
+pip-selfcheck.json

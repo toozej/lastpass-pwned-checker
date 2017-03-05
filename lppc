@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+''' Executable wrapper
+'''
+import sys
+import check_pwned_lastpass
+sys.exit(check_pwned_lastpass.main())
