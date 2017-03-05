@@ -35,17 +35,6 @@ Example Usage
     $ # if you created venv, deactivate it
 
 
-TODO
-----
-
-* more error handling
-* argparsing for input files (credentials and pwned_list.txt)
-* multithreading
-* download pwned_list from within program (user inputted URL and validation)
-* default pwned_list.txt from the web
-* prettier printing and file output
-
-
 License
 -------
 
